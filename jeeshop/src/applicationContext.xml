@@ -23,7 +23,7 @@
 		
 		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/git_jeeshop" />
 		<property name="user" value="root" />
-		<property name="password" value="root" />
+		<property name="password" value="ff2e8307dea774dddc12da17d25d85b6" />
 <!-- 		<property name="setAutoCommitOnClose" value="false"/> -->
 		<!--连接池中保留的最小连接数。 -->
 		<property name="minPoolSize">
@@ -31,7 +31,7 @@
 		</property>
 		<!--连接池中保留的最大连接数。Default: 15 -->
 		<property name="maxPoolSize">
-			<value>50</value>
+			<value>30</value>
 		</property>
 		<!--初始化时获取的连接数，取值应在minPoolSize与maxPoolSize之间。Default: 3 -->
 		<property name="initialPoolSize">
